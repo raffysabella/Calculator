@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.in {
+    width: 350px;
+    height: 35px;
+}
+
+.btnl1, .btnl2 {
+    width: 177px;
+    height: 35px;
+    background-color: #97ff8f;
+}
+.btnl3, .btnl4 {
+    background-color:  #97ff8f;
+    width: 357px;
+    height: 35px;
+}

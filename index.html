@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <!-- Input -->
+        <input type="number" id="num1" class="in">
+        <input type="number" id="num2" class="in">
+    </div>
+    <div>
+        <!-- button lines -->
+        <button class="btnl1" id="add" onclick="addNum()">+</button>
+        <button class="btnl1" id="sub" onclick="subNum()">-</button>
+    </div>
+    <div>
+        <button class="btnl2" id="mul" onclick="mulNum()">*</button>
+        <button class="btnl2" id="div" onclick="divNum()">/</button>
+    </div>
+    <div>
+        <button class="btnl3" id="mod" onclick="modNum()">%</button>
+        <button class="btnl4" id="clr" onclick="clrCont()">Clear</button>
+    </div>
+    <!-- Result shown in h2 element -->
+    <h2 id="result"></h2>
+</body>
+<script src="index.js"></script>
+</html>
